@@ -2,6 +2,7 @@ html
 body{
     height: 100%;
     font-size: 1rem;
+    font-family: 'Koh Santepheap', cursive;
 }
 
 
@@ -9,9 +10,24 @@ body{
 
 
 
-gradient{
+.gradient{
     background: rgb(2,0,36);
     background: linear-gradient(
         90deg, #090979
         rgba(2,0,36,1) 0%, rgba(9,9,121,1) 43%, rgba(0,212,255,1) 100%);
+}
+.page-header{
+    margin-top: 4rem;;
+    font-size: 1.25rem;
+    color: white;
+}
+.feature{
+    color: white;
+}
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.feature ul li {
+    padding-left: 2rem;
 }
